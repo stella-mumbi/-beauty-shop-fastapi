@@ -1,0 +1,55 @@
+<!-- 
+Beauty Shop Jewelry Store with FastAPI
+Welcome to the Beauty Shop Jewelry Store, where elegance meets convenience! Our online store offers a wide range of stunning jewelry pieces, including necklaces, earrings, bracelets, and rings, to complement your unique style and enhance your beauty.
+
+About the Project
+This project implements a CRUD (Create, Read, Update, Delete) functionality for managing jewelry products in an online store. Leveraging FastAPI, a modern web framework for building APIs with Python, this application allows users to perform various operations related to jewelry products, such as adding new items, updating existing products, deleting items, and retrieving product details.
+
+Features
+Create: Add new jewelry products to the store inventory.
+
+Read: Retrieve details of individual products or view the entire product catalog.
+
+Update: Modify existing product information, such as name, description, price, and quantity.
+
+Delete: Remove products from the inventory that are no longer available or in stock.
+Technologies Used
+
+Python: Core programming language used for backend development.
+
+FastAPI: High-performance web framework for building APIs quickly and efficiently.
+
+SQLite: Lightweight and reliable database management system for storing product data.
+
+Pydantic: Data validation and serialization library for Python.
+
+Swagger UI: Interactive API documentation for testing and exploring API endpoints.
+Installation
+
+To run this project locally, follow these steps:
+
+Clone the repository to your local machine:
+
+bash
+Copy code
+git clone https://github.com/stella-mumbi/-beauty-shop-fastapi.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd beauty-shop-fastapi
+Install the required dependencies:
+
+Copy code
+pipenv install  
+pipenv shell
+Run the FastAPI development server:
+
+
+Copy code
+uvicorn main:app --reload
+Access the API documentation and test the endpoints at http://127.0.0.1:8000/docs
+
+
+Contributors
+stella mumbi -->
